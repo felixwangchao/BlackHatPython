@@ -57,7 +57,7 @@ def Usage():
 
 def main():
     
-    if len(sys.argv[1:]) < 1 and len(sys.argv[1:])>1:
+    if len(sys.argv) < 2 or len(sys.argv)>2:
         Usage()
         sys.exit(0)
     
